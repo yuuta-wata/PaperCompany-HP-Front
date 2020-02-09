@@ -13,6 +13,41 @@ header h1 {
   margin: 0px;
 }
 
+dl {
+  overflow: hidden;
+}
+
+dt {
+  float: left;
+  width: 20%;
+}
+
+dd {
+  margin: 0 0 1em 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+.nav {
+  float: right;
+}
+
 .nav-list {
   list-style: none;
+  display: flex;
+}
+
+.wrapper {
+  clear: both;
+}
+
+.content {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.box {
+  padding: 10px;
 }

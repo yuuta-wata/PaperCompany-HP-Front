@@ -10,7 +10,7 @@ export function App() {
     <div>
       <Header />
       <Router>
-        <div>
+        <div className="nav">
           <ul className="nav-list">
             <li>
               <Link to="/">Home</Link>
@@ -22,21 +22,18 @@ export function App() {
               <Link to="/Contact">Contact</Link>
             </li>
           </ul>
-
-          <hr />
-
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/Service">
-              <Service />
-            </Route>
-            <Route path="/Contact">
-              <Contact />
-            </Route>
-          </Switch>
         </div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/Service">
+            <Service />
+          </Route>
+          <Route path="/Contact">
+            <Contact />
+          </Route>
+        </Switch>
       </Router>
     </div>
   );
