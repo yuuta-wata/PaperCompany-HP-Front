@@ -3,7 +3,7 @@ import React from 'react';
 export function ProFile() {
   return (
     <div className="box">
-      <h2>プロフィール</h2>
+      <h2>開発者プロフィール</h2>
       <dl>
         <dt>開発者</dt>
         <dd>渡辺　雄太　Watanabe Yuuta</dd>
