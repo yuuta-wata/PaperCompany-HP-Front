@@ -1,9 +1,14 @@
 import React from 'react';
+import { Information } from './homeItem/Information';
+import { ProFile } from './homeItem/ProFile';
 
 export function Home() {
   return (
-    <div>
-      <h1>白紙のようなホワイト企業</h1>
+    <div className="wrapper">
+      <div className="content">
+        <Information />
+        <ProFile />
+      </div>
     </div>
   );
 }
